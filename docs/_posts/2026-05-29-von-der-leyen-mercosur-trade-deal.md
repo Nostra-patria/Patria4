@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "EU-Mercosur Trade Deal Enters Provisional Application"
-date: 2026-05-29
+date: 2026-05-29 09:40:00 +0000
 category: economy
 image: /Patria4/assets/img/articles/2026-05-29-von-der-leyen-mercosur-trade-deal-header.jpg
 excerpt: "The EU-Mercosur Interim Trade Agreement began provisional application on May 1, 2026, reducing tariffs on European exports."

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Russian Drone Hits Romanian Apartment Block in Galati"
-date: 2026-05-29
+date: 2026-05-29 10:11:00 +0000
 category: security
 image: /Patria4/assets/img/articles/2026-05-29-russian-drones-hit-romania-header.jpg
 excerpt: "A Russian drone wounded two people and sparked a fire after entering Romanian airspace during an attack on Ukraine."
