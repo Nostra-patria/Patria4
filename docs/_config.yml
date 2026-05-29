@@ -1,0 +1,55 @@
+title: Patria Today
+description: European news, clearly told. Fast, sourced, and to the point.
+baseurl: "/Patria4"
+url: "https://nostra-patria.github.io"
+lang: en
+theme: null
+
+logo: /Patria4/assets/img/social-card.png
+
+future: true
+markdown: kramdown
+highlighter: rouge
+permalink: /articles/:year/:month/:slug/
+
+paginate: 20
+paginate_path: "/articles/page/:num/"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - "*.sh"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
+      author: "Patria Today"
+
+categories:
+  - id: security
+    label: "Security & Defence"
+    color: "#ef4444"
+  - id: diplomacy
+    label: "Diplomacy"
+    color: "#3b82f6"
+  - id: economy
+    label: "Economy"
+    color: "#f59e0b"
+  - id: politics
+    label: "Politics"
+    color: "#8b5cf6"
+  - id: society
+    label: "Society"
+    color: "#10b981"
+  - id: eu-affairs
+    label: "EU Affairs"
+    color: "#d4a853"

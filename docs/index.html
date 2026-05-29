@@ -1,0 +1,56 @@
+---
+layout: default
+title: null
+---
+
+{% assign latest = paginator.posts | default: site.posts %}
+{% assign featured = latest | first %}
+
+{% if featured %}
+<div class="hero-wrap">
+  <div class="hero">
+    <div class="hero-image">
+      {% if featured.image %}
+      <img src="{{ featured.image | relative_url }}" alt="{{ featured.title }}">
+      {% else %}
+      <div style="width:100%;height:100%;background:var(--bg-elevated);display:flex;align-items:center;justify-content:center;">
+        <span style="font-family:var(--font-head);font-size:2rem;font-weight:800;color:var(--text-dim);letter-spacing:0.1em">PATRIA</span>
+      </div>
+      {% endif %}
+    </div>
+    <div class="hero-content">
+      <div class="hero-meta">
+        {% if featured.category %}<span class="cat-badge cat-{{ featured.category }}">{{ featured.category | replace: '-', ' ' | upcase }}</span>{% endif %}
+        <span class="date-stamp">{{ featured.date | date: "%B %-d, %Y" }}</span>
+      </div>
+      <h1 class="hero-title"><a href="{{ featured.url | relative_url }}" style="color:inherit">{{ featured.title }}</a></h1>
+      <p class="hero-excerpt">{{ featured.excerpt | strip_html | truncate: 200 }}</p>
+      <a href="{{ featured.url | relative_url }}" class="hero-read-more">Read the full story →</a>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="section-wrap">
+  {% assign rest = latest | shift %}
+  {% if rest.size > 0 %}
+  <h2 class="section-heading">Latest</h2>
+  <div class="article-grid">
+    {% for post in rest limit: 9 %}
+      {% include article-card.html %}
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">← Newer</a>
+    {% endif %}
+    <span class="current">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Older →</a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>

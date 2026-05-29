@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% if page.image %}
+<div class="article-header-image">
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+</div>
+{% endif %}
+
+<div class="article-wrap">
+  <div class="article-kicker">
+    {% if page.category %}
+    <span class="cat-badge cat-{{ page.category }}">{{ page.category | replace: '-', ' ' | upcase }}</span>
+    {% endif %}
+    <span class="date-stamp">{{ page.date | date: "%B %-d, %Y" }}</span>
+  </div>
+
+  <h1 class="article-title">{{ page.title }}</h1>
+
+  <div class="article-byline">
+    By {{ page.author | default: "Patria Today" }}
+    {% if page.read_time %} · {{ page.read_time }} min read{% endif %}
+  </div>
+
+  <div class="article-body">
+    {{ content }}
+  </div>
+
+  {% if page.sources %}
+  <div class="source-note">
+    <strong>Sources:</strong>
+    {% for src in page.sources %}
+    <a href="{{ src.url }}" target="_blank" rel="noopener">{{ src.label }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
