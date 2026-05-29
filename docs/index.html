@@ -11,7 +11,7 @@ title: null
   <div class="hero">
     <div class="hero-image">
       {% if featured.image %}
-      <img src="{{ featured.image | relative_url }}" alt="{{ featured.title }}">
+      <img src="{{ featured.image }}" alt="{{ featured.title }}">
       {% else %}
       <div style="width:100%;height:100%;background:var(--bg-elevated);display:flex;align-items:center;justify-content:center;">
         <span style="font-family:var(--font-head);font-size:2rem;font-weight:800;color:var(--text-dim);letter-spacing:0.1em">PATRIA</span>
