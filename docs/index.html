@@ -33,10 +33,10 @@ title: null
 
 <div class="section-wrap">
   {% assign rest = latest | shift %}
-  {% if rest.size > 0 %}
+  {% if latest.size > 1 %}
   <h2 class="section-heading">Latest</h2>
   <div class="article-grid">
-    {% for post in rest limit: 9 %}
+    {% for post in latest limit: 9 offset: 1 %}
       {% include article-card.html %}
     {% endfor %}
   </div>
