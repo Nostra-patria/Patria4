@@ -38,6 +38,6 @@ The European Commission declared the EU-China trade relationship "not sustainabl
 
 German business leaders resist the proposal, fearing a "trade shield" will trigger retaliatory measures from Beijing that jeopardize German exports. China has vowed retaliation and warned that the EU cannot "afford" a trade war, framing the proposed tariffs and quotas as protectionism.
 
-The use of a non-paper allows Spain, France, iluminación, the Netherlands, and Lithuania to signal a unified hardline position without formally altering treaty-based trade policies. This industrial vanguard is attempting to force the Commission to react to a pre-formed consensus of diverse European economies.
+The use of a non-paper allows Spain, France, Italy, the Netherlands, and Lithuania to signal a unified hardline position without formally altering treaty-based trade policies. This industrial vanguard is attempting to force the Commission to react to a pre-formed consensus of diverse European economies.
 
 Although the European Commission maintains its "de-risking, not decoupling" strategy in official communications, internal pressure from the five-nation coalition is mounting. The Commission's admission that the current trade relationship with China is "not sustainable" provides an opening for the coalition to push for a more confrontational industrial policy.
