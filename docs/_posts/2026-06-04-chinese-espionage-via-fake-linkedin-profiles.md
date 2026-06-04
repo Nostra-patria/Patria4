@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Five Eyes Warn of Chinese Espionage via Fake LinkedIn Profiles"
-date: 2026-06-04 08:28:00 +0000
+date: 2026-06-04 06:58:00 +0000
 category: security
 image: /Patria4/assets/img/articles/2026-06-04-chinese-espionage-via-fake-linkedin-profiles-header.jpg
 excerpt: "Intelligence agencies warn that Chinese military intelligence uses fake job postings and recruiter profiles to target Western officials and tech experts."
