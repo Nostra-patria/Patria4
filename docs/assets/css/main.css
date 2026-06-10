@@ -325,13 +325,14 @@ img { max-width: 100%; height: auto; display: block; }
   border-radius: 2px;
   white-space: nowrap;
 }
-.cat-security    { background: rgba(239,68,68,0.15);  color: #ef4444; }
-.cat-diplomacy   { background: rgba(59,130,246,0.15); color: #60a5fa; }
-.cat-economy     { background: rgba(245,158,11,0.15); color: #fbbf24; }
-.cat-politics    { background: rgba(139,92,246,0.15); color: #a78bfa; }
-.cat-society     { background: rgba(16,185,129,0.15); color: #34d399; }
-.cat-eu-affairs  { background: rgba(212,168,83,0.15); color: #d4a853; }
-.cat-default     { background: rgba(141,163,187,0.1); color: #8da3bb; }
+.cat-security      { background: rgba(239,68,68,0.15);  color: #ef4444; }
+.cat-diplomacy     { background: rgba(59,130,246,0.15); color: #60a5fa; }
+.cat-economy       { background: rgba(245,158,11,0.15); color: #fbbf24; }
+.cat-politics      { background: rgba(139,92,246,0.15); color: #a78bfa; }
+.cat-society       { background: rgba(16,185,129,0.15); color: #34d399; }
+.cat-eu-affairs    { background: rgba(212,168,83,0.15); color: #d4a853; }
+.cat-investigation { background: rgba(234,88,12,0.18);  color: #fb923c; letter-spacing: 0.05em; }
+.cat-default       { background: rgba(141,163,187,0.1); color: #8da3bb; }
 
 /* Date stamp */
 .date-stamp {
